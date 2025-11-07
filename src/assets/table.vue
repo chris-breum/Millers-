@@ -27,7 +27,7 @@ const isCell1Duplicate = (value, index) => {
 
 <template>
   <div>
-    <table class="min-w-full bg-white border border-gray-600 border-3">
+    <table class="min-w-full bg-white border border-gray-600 ">
 
             <tr>
             <th class="py-2 px-4  border-r border-gray-600 text-left w-4/18">sample size s/m</th>
