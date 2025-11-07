@@ -46,18 +46,18 @@ const isCell1Duplicate = (value, index) => {
             <tr>
              <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18"></td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-3/18">Row 1, Cell 1</td>
-            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 2</td>
-            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 3</td>
-            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 4</td>
-            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 5</td>
-            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 6</td>
-             
-            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 2</td>
+             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 2</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 3</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 4</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 5</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 6</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 7</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 8</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 9</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 10</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 11</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 12</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 12</td>
             </tr>
 
         </thead>
