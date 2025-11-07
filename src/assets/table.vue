@@ -30,13 +30,13 @@ const isCell1Duplicate = (value, index) => {
     <table class="min-w-full bg-white border border-gray-600 border-3">
 
             <tr>
-            <th class="py-2 px-4  border-r border-gray-600 text-left w-5/16">sample size s/m</th>
-            <th class="py-2 px-4  border-r border-gray-600 border-2 text-left w-1/16">3D</th>
-            <th class="py-2 px-4  border-r border-gray-600 border-2 text-left w-2/16">Proto</th>
-            <th class="py-2 px-4 border-r border-gray-600 border-2 text-left w-2/16">Sms</th>
-            <th class="py-2 px-4  border-r border-gray-600 border-2 border-2 text-left w-2/16">Pps</th>
-            <th class="py-2 px-4  border-b border-r border-gray-600 border-2 text-left w-2/16">2nd pps</th>
-            <th class="py-2 px-4  border-b border-gray-600 border-2 text-left w-2/16">Final</th>
+            <th class="py-2 px-4  border-r border-gray-600 text-left w-9/24">sample size s/m</th>
+            <th class="py-2 px-4  border-r border-gray-600 border-2 text-left w-1/24">3D</th>
+            <th class="py-2 px-4  border-r border-gray-600 border-2 text-left w-3/24">Proto</th>
+            <th class="py-2 px-4 border-r border-gray-600 border-2 text-left w-3/24">Sms</th>
+            <th class="py-2 px-4  border-r border-gray-600 border-2 border-2 text-left w-3/24">Pps</th>
+            <th class="py-2 px-4  border-b border-r border-gray-600 border-2 text-left w-3/24">2nd pps</th>
+            <th class="py-2 px-4  border-b border-gray-600 border-2 text-left w-2/24">Final</th>
             </tr>
         </table>
     <table class="min-w-full bg-white border border-gray-600 border-3">
@@ -44,7 +44,7 @@ const isCell1Duplicate = (value, index) => {
         <thead>
         
             <tr>
-             <td class="py-2 px-4 border-b border-r border-gray-600 w-1/16">Row 1, Cell 0.5</td>
+             <td class="py-2 px-4 border-b border-r border-gray-600 w-1/16"></td>
             <td class="py-2 px-4 border-b border-r border-gray-600 w-4/16">Row 1, Cell 1</td>
             <td class="py-2 px-4 border-b border-r border-gray-600 w-1/16">Row 1, Cell 2</td>
             <td class="py-2 px-4 border-b border-r border-gray-600 w-2/16">Row 1, Cell 3</td>
