@@ -58,6 +58,8 @@ const isCell1Duplicate = (value, index) => {
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 11</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 12</td>
             <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 12</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 12</td>
+            <td class="py-1 px-2 border-b border-r border-gray-600 w-1/18">Row 1, Cell 12</td>
             </tr>
 
         </thead>
