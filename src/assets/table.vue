@@ -13,6 +13,13 @@ const addRow = () => {
     cell6: '',
     cell7: '',
     cell8: '',
+    cell9: '',
+    cell10: '',
+    cell11: '',
+    cell12: '',
+    cell13: '',
+    cell14: '',
+    cell15: '',
   });
 };
 
