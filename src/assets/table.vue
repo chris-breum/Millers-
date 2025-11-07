@@ -20,6 +20,7 @@ const addRow = () => {
     cell13: '',
     cell14: '',
     cell15: '',
+    cell16: '',
   });
 };
 
@@ -120,6 +121,9 @@ const isCell1Duplicate = (value, index) => {
               </td>
               <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell15" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell16" class="w-full px-2 py-1" />
               </td>
             </tr>
         </tbody>
