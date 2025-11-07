@@ -30,13 +30,13 @@ const isCell1Duplicate = (value, index) => {
     <table class="min-w-full bg-white border border-gray-600 ">
 
             <tr>
-            <th class="py-2 px-4  border-r border-gray-600  border-2 text-left w-4/18">sample size s/m</th>
-            <th class="py-2 px-4  border-r border-gray-600 border-2 text-left w-1/18">3D</th>
-            <th class="py-2 px-4  border-r border-gray-600 border-2 text-left w-3/18">Proto</th>
-            <th class="py-2 px-4 border-r border-gray-600 border-2 text-left w-3/18">Sms</th>
-            <th class="py-2 px-4  border-r border-gray-600 border-2 border-2 text-left w-3/18">Pps</th>
-            <th class="py-2 px-4  border-b border-r border-gray-600 border-2 text-left w-3/18">2nd pps</th>
-            <th class="py-2 px-4  border-b border-gray-600 border-2 text-left w-1/18">Final</th>
+            <th class="py-1 px-2 border-r border-gray-600  border-2 text-left w-4/18">sample size s/m</th>
+            <th class="py-1 px-2 border-r border-gray-600 border-2 text-left w-1/18">3D</th>
+            <th class="py-1 px-2 border-r border-gray-600 border-2 text-left w-3/18">Proto</th>
+            <th class="py-1 px-2 border-r border-gray-600 border-2 text-left w-3/18">Sms</th>
+            <th class="py-1 px-2 border-r border-gray-600 border-2 border-2 text-left w-3/18">Pps</th>
+            <th class="py-1 px-2 border-b border-r border-gray-600 border-2 text-left w-3/18">2nd pps</th>
+            <th class="py-1 px-2 border-b border-gray-600 border-2 text-left w-1/18">Final</th>
             </tr>
         </table>
     <table class="min-w-full bg-white border border-gray-600 ">
