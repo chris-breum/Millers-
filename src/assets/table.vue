@@ -119,7 +119,7 @@ const isCell1Duplicate = (value, index) => {
               </td>
               <td class="py-1 px-2 border-b border-r border-gray-600 flex items-center gap-2">
                 <input v-model="row.cell15" class="w-full px-2 py-1" />
-                <button @click="deleteRow(index)" class="text-red-500 hover:text-red-700 font-bold">✕</button>
+                <button @click="deleteRow(index)" class="text-red-500 hover:text-red-700 font-bold whitespace-nowrap">✕</button>
               </td>
             </tr>
         </tbody>
