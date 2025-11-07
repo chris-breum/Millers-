@@ -72,32 +72,53 @@ const isCell1Duplicate = (value, index) => {
         </thead>
         <tbody>
             <tr v-for="(row, index) in rows" :key="index">
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input 
                   v-model="row.cell1" 
                   :class="['w-full px-2 py-1', isCell1Duplicate(row.cell1, index) ? 'bg-red-100 border border-red-500' : '']"
                 />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell2" class="w-full px-2 py-1" />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell3" class="w-full px-2 py-1" />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell4" class="w-full px-2 py-1" />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell5" class="w-full px-2 py-1" />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell6" class="w-full px-2 py-1" />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell7" class="w-full px-2 py-1" />
               </td>
-              <td class="py-2 px-4 border-b border-r border-gray-600 flex items-center gap-2">
+              <td class="py-1 px-2 border-b border-r border-gray-600">
                 <input v-model="row.cell8" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell9" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell10" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell11" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell12" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell13" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600">
+                <input v-model="row.cell14" class="w-full px-2 py-1" />
+              </td>
+              <td class="py-1 px-2 border-b border-r border-gray-600 flex items-center gap-2">
+                <input v-model="row.cell15" class="w-full px-2 py-1" />
                 <button @click="deleteRow(index)" class="text-red-500 hover:text-red-700 font-bold">✕</button>
               </td>
             </tr>
