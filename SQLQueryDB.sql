@@ -1,12 +1,12 @@
 -- her laver vi db forfra
-/*
+
 Use master
 GO
 DROP DATABASE IF EXISTS millersdb
 CREATE DATABASE millersdb
 GO 
 USE millersdb;
-GO*/
+GO
 
 
 
