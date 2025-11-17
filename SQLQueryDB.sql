@@ -17,8 +17,8 @@ CREATE TABLE Measurements(
 
 CREATE TABLE MeasurementTemplates(
 		MeasurementTemplatesId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-		Name NVARCHAR(MAX) NOT NULL),
-		ImagesId INT NULL;
+		Name NVARCHAR(MAX) NOT NULL,
+		ImagesId INT NULL);
 
 CREATE TABLE Images(
 		ImagesId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
