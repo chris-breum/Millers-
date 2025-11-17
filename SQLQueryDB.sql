@@ -25,5 +25,5 @@ CREATE TABLE Images(
 		Img VARBINARY(MAX) NOT NULL);
 
 ALTER TABLE MeasurementTemplates
-	ADD CONSTRAINT MeasurementTemplates_Images_Fk
-	FOREIGN KEY (ImagesId) REFERENCES Images.ImagesId
+    ADD CONSTRAINT MeasurementTemplates_Images_Fk
+    FOREIGN KEY (ImagesId) REFERENCES Images.ImagesId;
