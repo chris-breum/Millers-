@@ -27,6 +27,9 @@ CREATE TABLE Images(
 
 ALTER TABLE MeasurementTemplates
     ADD CONSTRAINT MeasurementTemplates_Images_Fk
-    FOREIGN KEY (ImagesId) REFERENCES Images.ImagesId;
+    FOREIGN KEY (ImagesId) REFERENCES Images (ImagesId);
 
-
+ALTER TABLE Measurements(
+	ADD CONSTRAINT Measurements_MeasurementTemplates_Fk
+	FOREIGN KEY (MeasurementTemplatesId) REFERENCES MeasurementTemplates (MeasurementTemplatesId)
+);
