@@ -14,7 +14,7 @@ CREATE TABLE Measurements(
 	MeasurementsId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
 	Name NVARCHAR(MAX) NOT NULL,
 	Code VARCHAR(3) NOT NULL,
-	MeasurementTemplatesId int null);
+	MeasurementTemplatesId int NOT NULL);
 
 CREATE TABLE MeasurementTemplates(
 		MeasurementTemplatesId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
@@ -32,4 +32,5 @@ ALTER TABLE MeasurementTemplates
 ALTER TABLE Measurements
 	ADD CONSTRAINT Measurements_MeasurementTemplates_Fk
 	FOREIGN KEY (MeasurementTemplatesId) REFERENCES MeasurementTemplates (MeasurementTemplatesId);
+
 
